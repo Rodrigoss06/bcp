@@ -147,6 +147,11 @@
   }
 }
 
+
+.bottom-10 {
+  bottom: 6rem; /* 40px */
+}
+
 @layer base {
   *, :after, :before, ::backdrop {
     box-sizing: border-box;
@@ -580,6 +585,10 @@
 
   .right-6 {
     right: calc(var(--spacing) * 6);
+  }
+
+  .right-10 {
+    right: calc(var(--spacing) * 2);
   }
 
   .-bottom-12 {
