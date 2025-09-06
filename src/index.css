@@ -588,7 +588,7 @@
   }
 
   .right-10 {
-    right: calc(var(--spacing) * 2);
+    right: calc(var(--spacing) * 63);
   }
 
   .-bottom-12 {

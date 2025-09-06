@@ -130,6 +130,10 @@
   line-height: 1.25rem;
 }
 
+.fixed {
+  position:fixed;
+}
+
 /* Variantes */
 .alert-default {
   background-color: #f3f4f6; /* gray-100 */

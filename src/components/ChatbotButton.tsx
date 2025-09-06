@@ -60,7 +60,7 @@ export function ChatbotButton() {
 
   if (!isOpen) {
     return (
-      <div className="absolute bottom-10 right-10 z-50">
+      <div className="fixed bottom-10 right-10 z-50">
         <Button
           onClick={() => setIsOpen(true)}
           className="w-16 h-16 rounded-full bg-gradient-to-br from-primary to-secondary hover:scale-105 transition-transform text-white shadow-lg border-2 border-black/20 relative overflow-hidden"
@@ -76,7 +76,7 @@ export function ChatbotButton() {
   }
 
   return (
-    <div className="absolute bottom-10 right-10 w-80 h-96 z-50">
+    <div className="fixed bottom-10 right-10 w-80 h-96 z-50">
       <Card className="h-full border border-black shadow-lg bg-white flex flex-col">
         {/* Header */}
         <div className="flex items-center justify-between p-4 bg-gradient-to-r from-primary to-secondary text-white rounded-t-lg border-b border-black">
